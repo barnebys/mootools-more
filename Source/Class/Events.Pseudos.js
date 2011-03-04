@@ -61,7 +61,7 @@ Events.Pseudos = function(pseudos, addEvent, removeEvent){
 		return Object.merge.apply(this, split.map(function(item){
 			return pseudos[item.pseudo].options || {};
 		}));
-	}
+	};
 
 	return {
 
@@ -177,4 +177,4 @@ Events.implement(Events.Pseudos(pseudos, proto.addEvent, proto.removeEvent));
 	if (this[klass]) this[klass].implement(Events.prototype);
 });
 
-})();
+}).call(this);
