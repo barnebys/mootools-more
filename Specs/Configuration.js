@@ -44,7 +44,7 @@ Configuration.sets = {
 			'Types/String.Extras', 'Types/String.QueryString', 'Types/Number.Format',
 			'Types/Hash', 'Types/Hash.Extras', 'Types/Date',
 			'Types/Date.Extras', 'Locale/Locale',
-			'Utilities/Color', 'Utilities/Group'
+			'Utilities/Color', 'Utilities/Group', 'Utilities/Table'
 		]
 	},
 
@@ -53,13 +53,13 @@ Configuration.sets = {
 		files: [
 			'Class/Class.Occlude',
 			'Element/Element.Forms', 'Element/Element.Measure', 'Element/Elements.From', 'Element/Element.Shortcuts',
-			'Element/Element.Event.Pseudos', 'Element/Element.Event.Pseudos.Keys', 'Element/Element.Delegation', 'Element/Element.Pin',
+			'Element/Element.Event.Pseudos', 'Element/Element.Event.Pseudos.Keys', 'Element/Element.Delegation', 'Element/Element.Pin', 'Element/Element.Position',
 			'Types/URI', 'Types/URI.Relative', 'Types/Object.Extras_client',
-			'Interface/Keyboard', 'Interface/HtmlTable', 'Interface/HtmlTable.Sort', 'Interface/HtmlTable.Select',
+			'Interface/Keyboard', 'Interface/Keyboard.Extras', 'Interface/HtmlTable', 'Interface/HtmlTable.Sort', 'Interface/HtmlTable.Select',
 			'Forms/Form.Validator',
-			'Fx/Fx.Reveal',
+			'Fx/Fx.Reveal', 'Fx/Fx.Slide',
 			'Request/Request.JSONP',
-			'Utilities/Hash.Cookie', 'Utilities/Assets'
+			'Utilities/Color', 'Utilities/Group', 'Utilities/Table'
 		]
 	}
 
@@ -153,7 +153,8 @@ Configuration.source = {
 			'Types/Number.Format',
 
 			'Utilities/Color',
-			'Utilities/Group'
+			'Utilities/Group',
+			'Utilities/Table'
 
 		]
 	},
@@ -171,7 +172,9 @@ Configuration.source = {
 			'Element/Element.Event.Pseudos',
 			'Element/Element.Event.Pseudos.Keys',
 			'Element/Element.Delegation',
+
 			'Element/Element.Pin',
+			'Element/Element.Position',
 
 			'Forms/Form.Validator',
 
@@ -179,16 +182,19 @@ Configuration.source = {
 			'Types/URI.Relative',
 
 			'Interface/Keyboard',
+			'Interface/Keyboard.Extras',
 			'Interface/HtmlTable',
 			'Interface/HtmlTable.Sort',
 			'Interface/HtmlTable.Select',
 
 			'Fx/Fx.Reveal',
+			'Fx/Fx.Slide',
 
 			'Request/Request.JSONP',
 
 			'Utilities/Hash.Cookie',
-			'Utilities/Assets'
+			'Utilities/Assets',
+			'Utilities/Table'
 		]
 	},
 
